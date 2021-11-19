@@ -17,8 +17,8 @@ function BarPercentage({session, focusDuration, breakDuration}) {
               role="progressbar"
               aria-valuemin="0"
               aria-valuemax="100"
-              aria-valuenow={barPercentage} // TODO: Increase aria-valuenow as elapsed time increases
-              style={{ width: `${barPercentage}%` }} // TODO: Increase width % as elapsed time increases
+              aria-valuenow={barPercentage} 
+              style={{ width: `${barPercentage}%` }} 
             />
           </div>
         </div>
